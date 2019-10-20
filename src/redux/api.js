@@ -2,7 +2,7 @@
 
  const requestHelper = axios.create({
 
-    baseURL : 'http://localhost:4000'
+    baseURL : 'https://hotel-e0fce.firebaseio.com'
  });
 
  export default { 
@@ -10,11 +10,11 @@
     rooms:{
        
         get: () => requestHelper({
-            url:'rooms',
+            url:'rooms.json',
             method: 'get',
         }),
         create: data => requestHelper({
-            url: 'rooms',
+            url: 'rooms.json',
             method : 'post',
             data,
         })
