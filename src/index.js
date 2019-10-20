@@ -17,6 +17,7 @@ const nodes = (
         <Router>
             <Switch> 
                 <Route exact path="/" component={Home} />
+                <Route exact path="/hotel" component={Home} />
                 <Route exact path="/rooms" component={AllRooms} />
                 <Route exact path="/rooms/:slug" component={ViewRoom} />
                 <Route exact path="/FormNew" component={FormNew} />                
