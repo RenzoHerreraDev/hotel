@@ -16,7 +16,7 @@ const Error = () => {
 
                 <Header img={imgdef} >
                         <Banner title="Error"    >
-                        <Link   to="/" class="btn-primary">Volver Inicio </Link >
+                        <Link   to="/hotel" class="btn-primary">Volver Inicio </Link >
                         </Banner>
               </Header>
                 </Layout>

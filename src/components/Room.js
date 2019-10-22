@@ -13,7 +13,7 @@ import {Link } from "react-router-dom";
                 <h6>${price}</h6>
                 <p> Por noche</p>
             </div>
-            <Link to={ `/rooms/${id}`} 
+            <Link to={ `/hotel/rooms/${id}`}  
             className="btn-primary room-link">
                 Ver Más
             </Link>
