@@ -26,7 +26,7 @@ class ViewRoom extends Component {
                 return (
                         <div className="error">
                             <h3>no se puede encontrar esa habitación...</h3>
-                            <Link to='/rooms' className="btn-primary">
+                            <Link to='/hotel/rooms' className="btn-primary">
                             back to room
                             </Link>
                         </div>

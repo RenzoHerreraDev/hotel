@@ -18,7 +18,7 @@ class Home extends Component{
             <Layout>
                    <Header img={imgdef}>
                         <Banner  title="Habitaciones lujosas"   subtitle="Habitaciones de lujo a partir de $2000 por noche">
-                                <Link   to="/rooms" class="btn-primary">Ver todas </Link >
+                                <Link   to="/hotel/rooms" class="btn-primary">Ver todas </Link >
                         </Banner>
                       </Header>
                  <Services/>
