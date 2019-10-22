@@ -34,7 +34,7 @@ class ViewRoom extends Component {
         }
         else{
             const ids = Object.keys(rooms);
-            const roomsThree = Object.values(rooms).slice(0, 3);
+            const roomsThree = Object.values(rooms);
             for (var i = 0; i < roomsThree.length ; i++) {
                 roomsThree[i].id = ids[i];
                
