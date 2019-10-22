@@ -19,7 +19,7 @@ class NabBar extends Component {
         return   <nab className="navbar" >
                     <div className="nav-center">
                          <div className="nav-header">
-                            <Link to="/">
+                            <Link to="/hotel">
                                 <img src={logo} alt="Brach Resort" />
                             </Link>
                             <button type="button" className="nav-btn" 
@@ -29,13 +29,13 @@ class NabBar extends Component {
                         </div>
                         <ul className={this.state.isOpen ? "nav-links show-nav": "nav-links"  }>
                         <li>
-                            <Link to="/">Inicio </Link>
+                            <Link to="/hotel">Inicio </Link>
                         </li>        
                         <li>
-                            <Link to="/rooms">Habitaciones </Link>
+                            <Link to="/hotel/rooms">Habitaciones </Link>
                         </li>     
                          <li>
-                            <Link to="/FormNew">Cargar habitacion</Link>
+                            <Link to="/hotel/FormNew">Cargar habitacion</Link>
                          </li>               
                         </ul>
                         

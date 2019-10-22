@@ -16,11 +16,10 @@ const nodes = (
     <Provider store={store}>
         <Router>
             <Switch> 
-                <Route exact path="/" component={Home} />
                 <Route exact path="/hotel" component={Home} />
-                <Route exact path="/rooms" component={AllRooms} />
-                <Route exact path="/rooms/:slug" component={ViewRoom} />
-                <Route exact path="/FormNew" component={FormNew} />                
+                <Route exact path="/hotel/rooms" component={AllRooms} />
+                <Route exact path="/hotel/rooms/:slug" component={ViewRoom} />
+                <Route exact path="/hotel/FormNew" component={FormNew} />                
                 <Route component={Error} />
             </Switch> 
         </Router>
