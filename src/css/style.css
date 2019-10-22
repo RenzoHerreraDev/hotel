@@ -433,10 +433,11 @@ Form {
    margin: 0 0 1rem 0;
 }
 
-.typeBool{
-    display: grid;
-    grid-template-columns: 1fr   1fr  1fr  ;
 
+.typeBool p {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr     ;
 }
 
 @media(min-width: 820px) {
@@ -452,6 +453,12 @@ Form {
     .send {
         grid-column: 1/3;
     }
+    .typeBool{
+      text-align: left;
+      display: grid;
+      grid-template-columns: 1fr  1fr  1fr     ;
+  
+  }
 }
 
 
