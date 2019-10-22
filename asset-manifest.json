@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hotel/static/css/main.3e90145a.chunk.css",
+    "main.css": "/hotel/static/css/main.ef7eba47.chunk.css",
     "main.js": "/hotel/static/js/main.5cdd7ed1.chunk.js",
     "main.js.map": "/hotel/static/js/main.5cdd7ed1.chunk.js.map",
     "runtime-main.js": "/hotel/static/js/runtime-main.9e35a063.js",
@@ -8,9 +8,9 @@
     "static/js/2.cddf8372.chunk.js": "/hotel/static/js/2.cddf8372.chunk.js",
     "static/js/2.cddf8372.chunk.js.map": "/hotel/static/js/2.cddf8372.chunk.js.map",
     "index.html": "/hotel/index.html",
-    "precache-manifest.21c3656951807d3ea6cdaf4b71278db5.js": "/hotel/precache-manifest.21c3656951807d3ea6cdaf4b71278db5.js",
+    "precache-manifest.ad45c952c454bec1d9a4175c1a1f51f9.js": "/hotel/precache-manifest.ad45c952c454bec1d9a4175c1a1f51f9.js",
     "service-worker.js": "/hotel/service-worker.js",
-    "static/css/main.3e90145a.chunk.css.map": "/hotel/static/css/main.3e90145a.chunk.css.map",
+    "static/css/main.ef7eba47.chunk.css.map": "/hotel/static/css/main.ef7eba47.chunk.css.map",
     "static/media/defaultBcg.jpeg": "/hotel/static/media/defaultBcg.aebaec51.jpeg",
     "static/media/logo.svg": "/hotel/static/media/logo.9f0cccc1.svg"
   }
