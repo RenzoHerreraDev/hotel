@@ -15,7 +15,9 @@ class FeatureRooms extends Component{
             return ('')
         }
         else{
-           const roomsThree = rooms.slice(0, 3);
+            const id = Object.keys(rooms);
+            const roomsThree = Object.values(rooms).slice(0, 3);
+        
             return (
                 <section className="featured-rooms">
                         <div className='section-title'>
@@ -23,9 +25,11 @@ class FeatureRooms extends Component{
                             <div></div>
                         </div>
                         <div className="featured-rooms-center">
-                            {roomsThree.map( i => (
-                            <Room  item={i} /> 
-                            ))}
+                          
+                            {roomsThree.map((i, index) => {
+                                i.id = id[index];
+                                return  <Room  item={i } /> 
+                            })} 
                         </div>
                 </section>
             )

@@ -16,6 +16,9 @@ export const createRooms = (data) => async (dispatch) =>{
  }
 }
 export const getRooms = () => async (dispatch) =>{
+
+
+
         try{
             const  response = await api.rooms.get();
             dispatch (getRoomsSuccess(response.data));

@@ -14,10 +14,18 @@ class FeatureRooms extends Component{
     }
     render() {
         const {  rooms  } = this.props;
-     
+
+
+        const ids = Object.keys(rooms);
+        const roomsArray = Object.values(rooms);
+
+        for (var i = 0; i < roomsArray.length ; i++) {
+            roomsArray[i].id = ids[i];
+           
+         }
         return (
             <>   
-               <RoomList rooms={rooms}/>
+               <RoomList rooms={roomsArray}/>
            </>
         )
     }

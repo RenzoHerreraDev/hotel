@@ -136,8 +136,7 @@ class FormNew extends Component {
         size: formData.size,
         capacity:  formData.capacity,
         pets: formData.pets,
-        breakfast:  formData.breakfast,
-      
+        breakfast:  formData.breakfast,     
       });
       alert('Nueva habitacion cargada');
        this.restForm();
