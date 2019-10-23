@@ -50,17 +50,18 @@ class FormNew extends Component {
   }
   
   changeHandler = event => {
-      const name = event.target.name;
-      const value = event.target.value;
+    const name = event.target.name;
+
         if( event.target.name == 'breakfast' | event.target.name == 'pets'){
 
-          const value = event.target.checked;
+            const value = event.target.checked;
             this.setState({
                 formControls: { ...this.state.formControls, [name]: {  ...this.state.formControls[name], value  }
                 }
               });
         }
        else if(  event.target.files != null ) {
+          const value = event.target.value;
             const file =  event.target.files[0] ;
             this.setState({
                 formControls: { ...this.state.formControls, [name]: {  ...this.state.formControls[name], file  , value}
@@ -68,6 +69,7 @@ class FormNew extends Component {
                 }
             });
         }else{
+          const value = event.target.value;
             this.setState({
                 formControls: { ...this.state.formControls, [name]: {  ...this.state.formControls[name], value  }
                 }
