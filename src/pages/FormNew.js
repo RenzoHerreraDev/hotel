@@ -54,7 +54,7 @@ class FormNew extends Component {
       const value = event.target.value;
         if( event.target.name == 'breakfast' | event.target.name == 'pets'){
 
-             value = event.target.checked;
+          const value = event.target.checked;
             this.setState({
                 formControls: { ...this.state.formControls, [name]: {  ...this.state.formControls[name], value  }
                 }
