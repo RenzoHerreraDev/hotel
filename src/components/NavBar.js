@@ -2,6 +2,7 @@ import React , {Component}from 'react'
 import logo from '../images/logo.svg';
 import { FaAlignRight} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
+import Login from './Login';
 
 
 class NabBar extends Component {
@@ -38,6 +39,7 @@ class NabBar extends Component {
                             <Link to="/hotel/FormNew">Cargar habitacion</Link>
                          </li>               
                         </ul>
+                        <Login />
                         
                     </div>
                 </nab>   
