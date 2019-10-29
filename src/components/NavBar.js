@@ -37,7 +37,7 @@ class NabBar extends Component {
                         </li>     
                          <li>
                             <Link to="/hotel/FormNew">Cargar habitacion</Link>
-                         </li>               
+                         </li>     
                         </ul>
                         <Login />
                         

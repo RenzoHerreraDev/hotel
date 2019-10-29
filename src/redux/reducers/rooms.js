@@ -9,9 +9,5 @@ import { getRoomsSuccess , createRoomsSuccess  } from '../actions';
     },
     [getRoomsSuccess]: ( state, action ) => {
         return action.payload ;
-
     }
-  
- 
-    
 }, []);

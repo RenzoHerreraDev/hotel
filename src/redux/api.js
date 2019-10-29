@@ -8,7 +8,6 @@
  export default { 
    
     rooms:{
-       
         get: () => requestHelper({
             url:'rooms.json',
             method: 'get',
